@@ -1,0 +1,24 @@
+/* CSS to make our form look a little more visually appealing */
+
+form {
+    width: 300px;
+    padding: 5px;
+    background-color: #0a0;
+    border: 3px solid #0f0;
+    box-shadow: 5px 5px 5px #555;
+    border-radius: 10px;
+}
+
+#outputArea {
+    width:35px;
+    padding: 5px;
+    background-color: #0f0;
+    border: 3px solid #0a0;
+    box-shadow: 5px 5px 5px #555;
+    border-radius: 10px;
+}
+
+#numInput {
+	transition: visibility 0s, opacity 0.5s linear;
+	transition-timing-function = "ease-in";
+}

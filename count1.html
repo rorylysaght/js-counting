@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Counting Application</title>
+    <link rel="stylesheet" href="count1.css">
+    <script src="count1.js"></script>
+</head>
+<body> 
+<div id="wrapper">
+
+<h1 id="vname">Counting App</h1>
+    
+<form name="frm1">
+
+    <h2>Please enter <em>your name</em></h2>
+    <p>
+		Name: <input type="text" name="box1" />
+        <input type="button" value="Ok" onClick="doName(frm1.box1.value)" />
+    </p>
+    
+
+    <h2>Please enter <em>a number</em></h2>
+    <p>
+		Number: <input type="text" name="box2" />
+        <input type="button" value="Go!" onClick="doCount(frm1.box2.value)" />
+    </p>
+    
+</form>
+
+<div id="outputArea">&nbsp;</div>
+
+</div><!-- /#wrapper -->
+
+</body>
+</html>

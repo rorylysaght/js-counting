@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Counting Application</title>
+    <link rel="stylesheet" href="count4.css">
+    <script src="count4.js"></script>
+</head>
+<body>
+<div id="wrapper">
+ 
+<h1 id="vname">Counting App</h1>
+    
+<h2>
+    <div id="header">Waiting for input .....</div>
+</h2>
+
+<form name="frm1" id="frm1">
+    
+<div id="nameInput">
+    <h2>Please enter <em>your name</em></h2>
+    <p>
+		Name: <input type="text" name="box1" size="15" />
+        <input type="button" value="Ok" onClick="doName(frm1.box1.value)" />
+    </p>
+</div>
+    
+ <div id="numInput">
+    <h2>Please enter <em>a number</em></h2>
+    <p>
+        Number: <input type="text" name="box2" size="15" maxlength="4" />
+        <input id="btn2" type="button" value="Go!" onClick="doCount(frm1.box2.value)" />
+    </p>
+	<p id="resetBtn">
+		<a href="" onClick="reset()">Reset Form</a>
+	</p>
+</div>
+
+	
+
+</form>
+
+<div id="outputArea">&nbsp;</div>
+    
+	
+</div><!-- /#wrapper -->
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* CSS to make our form look a little more visually appealing */
+#wrapper {
+    margin-left: 50px;
+}
+
+em {
+    font-weight: bold;
+	padding: 5px;
+    color: darkmagenta;
+	transition: all 1s ease;
+}
+form {
+    width: 300px;
+	height: 115px;
+    padding: 5px;
+    background-color: #9ff;
+    border: 3px solid #0a0;
+    box-shadow: 5px 5px 5px #555;
+    border-radius: 10px 10px 10px 0;
+	transition: all 1s ease;
+}
+
+#nameInput {
+	position: absolute;
+	visibility: visible;
+    //transition: all 1s ease;
+}
+
+#numInput {
+	position: absolute;
+	visibility: hidden;
+    /*transition: all 1s ease;*/
+}
+
+#resetBtn {
+	visibility: hidden;
+}
+
+#outputArea {
+	transition: all 1s ease;
+    width: 35px;
+    padding: 5px;
+    background-color: #cf6;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    border-color: #0a0;
+    box-shadow: 5px 5px 5px #555;
+    border-radius: 0 0 10px 10px;
+}

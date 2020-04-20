@@ -1,0 +1,16 @@
+/* CSS to make our form look a little more visually appealing */
+#wrapper {
+    margin-left:50px;
+}
+
+form {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+#outputArea {
+    width:35px;
+    padding: 5px;
+    border: 1px solid #000;
+}

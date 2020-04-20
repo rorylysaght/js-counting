@@ -1,0 +1,37 @@
+/* CSS to make our form look a little more visually appealing */
+#wrapper {
+    margin-left:50px;
+}
+
+em {
+    font-weight: bold;
+    color:darkmagenta;
+}
+form {
+    width: 300px;
+    padding: 5px;
+    background-color: #9ff;
+    border: 3px solid #0a0;
+    box-shadow: 5px 5px 5px #555;
+    border-radius: 10px 10px 10px 0;
+}
+
+#numInput {
+    display:none;
+}
+#outputArea {
+    display: none;
+}
+
+
+
+#outputArea {
+    width:35px;
+    padding: 5px;
+    background-color: #cf6;
+    border-width: 0 3px 3px 3px;
+    border-style: solid;
+    border-color: #0a0;
+    box-shadow: 5px 5px 5px #555;
+    border-radius: 0 0 10px 10px;
+}
